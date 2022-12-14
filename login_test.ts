@@ -10,7 +10,7 @@ Scenario('Test Log In', async ({ I }) => {
     }
     I.see('Přihlášení do Můj Vodafone');
     I.fillField('Telefonní číslo, e-mail, číslo služby', '773088835');
-    I.fillField('Napište své heslo', '237420');
+    I.fillField('Napište své heslo', 'xxx');
     I.click('Přihlásit se');
     I.wait(5);
 });
